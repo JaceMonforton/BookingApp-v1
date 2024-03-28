@@ -1,0 +1,119 @@
+/* Specify the 'Inter' font for the entire document */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    padding: 20px;
+    height: 100%;
+}
+
+.collapsed-sidebar, .sidebar {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 2px grey;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header {
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 2px grey;
+    margin-bottom: 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Exo 2', sans-serif;
+    padding-right: 20px;
+}
+
+.content {
+    width: 100%;
+}
+
+.body {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px grey;
+    height: 200vh;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+}
+
+.menu {
+    margin-top: 50px;
+    padding: 0 10px;
+}
+
+.menu-item {
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+.menu-item a {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-item i {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-item:active {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.menu-item:active {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 0 5px;
+    }
+    
+    .body{
+        height: 300vh;
+    }
+.class-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+    
+}

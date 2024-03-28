@@ -1,0 +1,161 @@
+
+/* antd override */
+input {
+  border-radius: 5px !important;
+  outline: none !important;
+  height: 40px !important;
+}
+input:focus {
+  border-radius: 20px !important;
+}
+input:hover {
+  border-radius: 20px !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: black;
+
+}
+
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+
+/* Common Styling */
+body {
+  font-family: 'Inter', sans-serif;
+}
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.600);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+}
+.spinner-border {
+  width: 4rem;
+  height: 4rem;
+  color: white !important;
+}
+
+.card  {
+  box-shadow: 0 0 2px gray;
+  border-radius: 5px;
+}
+
+.page-title {
+  font-family: "Exo 2" , sans-serif;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.700);
+}
+
+.card-title {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.700);
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif;
+}
+
+.card2-title {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.700);
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif;
+}
+
+.card3-title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.700);
+  font-weight: 700;
+  font-family: "Exo 2", sans-serif;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.primary-button {
+  height: 40px !important;
+  width: 100%;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+}
+
+.anchor {
+  color: black !important;
+  text-decoration: underline;
+  text-underline-offset: 6px !important;
+  font-size: 16px !important;
+  transition: 0.2s;
+}
+.anchor:hover {
+  text-decoration: underline !important;
+}
+
+/* REMIX ICONS */
+
+.remix-icons {
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  transition: 0.3s;
+}
+
+/*  Auth Pages:  */
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 37, 37);
+}
+
+.authentication-form {
+  width: 400px;
+}    
+
+
+
+/* classes PAGE*/ 
+
+.class-cards {
+  display: flex;
+}
+
+.card {
+  width: 350px;
+  max-width: 350px;
+  margin: 10px;
+  box-shadow: 0 0 0.2 grey;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 24px 16px;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.700);
+}
+
+.card-description {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.700);
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.notifications{
+  display: flex;
+  overflow-x: scroll;  
+}
+
+
