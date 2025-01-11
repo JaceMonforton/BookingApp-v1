@@ -66,7 +66,9 @@ const Waiver = () => {
                 Waiver
             </Button>
         
-            <Modal title="My Forms" open={visible} onCancel={hideForm} footer={null}>
+            <Modal 
+            
+            title="My Forms" open={visible} onCancel={hideForm} footer={null}>
             <div className='modal-container'>
                 <div className='authentication-form '>
 
@@ -118,7 +120,11 @@ const Waiver = () => {
 
         </div>
     </div>
+
+
       </Modal>
+
+
 </Layout>
   )
 }

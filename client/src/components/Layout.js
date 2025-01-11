@@ -4,6 +4,7 @@ import "../index.css";
 import { Link, useNavigate, useLocation, Navigate} from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Badge } from 'antd';
+import Logo from  '../assets/KFW-Logo.png'
 function Layout({children}) {
     const [collapsed, setCollapsed] = useState(false);
     const location = useLocation();
@@ -87,7 +88,7 @@ function Layout({children}) {
           <div className='d-flex layout'>
             <div className={`${collapsed ? 'collapsed-sidebar' : 'sidebar'}`}>
               <div className='sidebar-header'>
-                <h1 className='slogan m-3'>TT</h1>
+                <img className='logo' src={Logo} alt='KFW-Logo' />
               </div>
               <div className='menu d-flex-col'>
                 {menuToBeRendered.map((menu) => (

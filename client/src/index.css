@@ -57,7 +57,7 @@ body {
 }
 
 .card-title {
-  font-size: 24px;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.700);
   font-weight: 700;
   font-family: "Exo 2", sans-serif;
@@ -152,7 +152,17 @@ body {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+.logo {
+  color: white;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 
+}
 .notifications{
   display: flex;
   overflow-x: scroll;  

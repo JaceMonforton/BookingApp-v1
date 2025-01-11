@@ -56,7 +56,7 @@ function CreateSession() {
      {(user?.isTrainer || user?.isAdmin) &&    
         <Form layout='vertical' onFinish={onFinish}>
 
-                <h1 className='page-title'>Create a Class!</h1>
+                <h1 className='page-title'>New Class</h1>
                 <hr/>
                 <h2 className='card-title'>Session Info</h2>
                 <Row gutter={24}>
